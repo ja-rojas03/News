@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wp"
+    tools:context=".newsUpload">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/news_Image"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_action_camera"
+            />
+        <ProgressBar
+            android:visibility="gone"
+            android:id="@+id/progressbarLoadImage"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/load_img_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:background="#9f9f9f"
+            android:text="Upload Image"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/news_Image"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txt_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Title"
+                android:inputType="text"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="true"
+                android:textColorHint="@color/colorAccent"
+                android:paddingBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/txt_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Text description"
+                android:inputType="textMultiLine"
+                android:maxLines="3"
+                android:textColor="#FFFFFF"
+                android:isScrollContainer="true"
+                android:focusable="true"
+                android:textColorHint="@color/colorAccent"
+                android:paddingBottom="16dp"/>
+
+            <Button
+                android:id="@+id/add_news_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add news"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="#FFFFFF"
+                android:background="#9f9f9f"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "979661013344",
+    "firebase_url": "https://alticedoapp.firebaseio.com",
+    "project_id": "alticedoapp",
+    "storage_bucket": "alticedoapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979661013344:android:b38e076277580d49",
+        "android_client_info": {
+          "package_name": "com.example.altice.alticedoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979661013344-degsfkjmhrgqfb13lb7b6lasen8so9u6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.altice.alticedoapp",
+            "certificate_hash": "96c951b7806b4937ddbb2ebaf916dfcb6b0eaa10"
+          }
+        },
+        {
+          "client_id": "979661013344-d16gll03iqdnjqlj4g40bj71h2ml71m7.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "979661013344-d16gll03iqdnjqlj4g40bj71h2ml71m7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbMrQLWGi4Ot6dATatFewy5VT8NdqgJ90"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979661013344-d16gll03iqdnjqlj4g40bj71h2ml71m7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="8dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/parent_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/my_Article_ID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:text="ID"/>
+            <ImageView
+                android:id="@+id/my_Image_View_CV"
+                android:layout_width="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:layout_height="200dp">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/my_Text_View_CV"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:background="#85630101"
+                app:layout_constraintBottom_toBottomOf="@+id/my_Image_View_CV"/>
+        </android.support.constraint.ConstraintLayout>
+
+
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
